@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(225, 240, 245);
+}
+.create-box{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: 0 auto 60px;
+    form{
+        width: 48%;
+    }
+    // #subtext1{
+    //     display: none;
+    // }
+    // #subtext2{
+    //     display: none;
+    // }
+    .box{
+        label{
+            width: 15%;
+        }
+        input{
+            width: 85%;
+        }
+        textarea{
+            width: 90%;
+        }
+    }
+    .summary{
+        .summary-box{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content
+        {
+            width: 50%;
+        }
+        .unit_price
+        {
+            width: 30%;
+        }
+        .quantity
+        {
+            width: 10%;
+        }
+        .rate
+        { 
+            width: 10%;
+        }
+        .content
+        {
+            width: 50%;
+        }
+        .unit_price
+        {
+            width: 30%;
+        }
+        .quantity
+        {
+            width: 10%;
+        }
+        .rate
+        { 
+            width: 10%;
+        }
+
+    }
+}
+.hyoutyou{
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+    .from{
+        white-space: pre-line;
+    }
+    .for{
+        white-space: pre-line;
+        margin-bottom: 15px;
+    }
+    .remarks{
+        white-space: pre-line;
+    }
+    .subject{
+        white-space: pre-line;
+        font-weight: bold;
+    }
+    h3{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .box-1{
+        display: flex;
+        .from{
+            height: 90px;
+        }
+        .for{
+            height: 90px;
+        }
+    }
+    .box-2{
+        display: flex;
+        justify-content: space-around;
+        .all-total{
+            width: 40%;
+            border-bottom: solid 2px;
+        }
+        .deadline{
+            width: 40%;
+        }
+    }
+    .box-left{
+        width: 60%;
+        .from{
+            font-size: 18px;
+        }
+    }
+    .box-right{
+        width: 40%;
+        .number{
+            font-size: 14px;
+        }
+        .date{
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .for{
+            font-size: 16px;
+        }
+    }
+    .box-3{
+        margin: 20px 0 ;
+        table{
+            width: 100%;
+        }
+        tr td:first-of-type{
+            width: 45%;
+        }
+        th{
+            border: solid 1px;
+            height: 26px;
+        }
+        td{
+            border: solid 1px;
+            height: 26px;
+        }
+        .joo{
+            display: flex;
+        }
+        .j{
+            width: 75%;
+            text-align: right;
+            padding-right: 10px;
+        }
+        .jo{
+            width: 25% !important;
+            margin: 0 0 0 auto;
+            border: solid 1px;
+            border-top: none;
+            text-align: right;
+        }
+    }
+    .remarks{
+        line-height: 14px;
+        .remarks-box{
+            border: solid 1px;
+            height: 100px;
+
+        }
+    }
+}
+.list-contents{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    a{
+        width: 500px;
+        padding: 15px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        background-color: rgb(241, 241, 241);
+        display: inline-block;    
+        text-decoration: none;
+        border: solid 1px rgb(25, 136, 220);
+    }
+    p{
+        color: #000;
+    }
+}
+.btn-parent{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 80px;
+    a{
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: rgb(43, 43, 43);
+        font-weight: bold;
+        background-color: rgb(139, 219, 219);
+    }
+}
+.toPDF{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(10, 97, 238);
+    border: none;
+    padding: 8px 15px;
+}
